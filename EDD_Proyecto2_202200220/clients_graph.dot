@@ -1,0 +1,27 @@
+digraph ListaAdyacencia {
+	edge [dir=both];
+	label="Lista Adyacencia de Rutas";
+  "Cadiz" -> "Sevilla" [label="125"];
+  "Sevilla" -> "Granada" [label="256"];
+  "Sevilla" -> "Jaen" [label="242"];
+  "Granada" -> "Jaen" [label="99"];
+  "Granada" -> "Murcia" [label="278"];
+  "Jaen" -> "Madrid" [label="335"];
+  "Murcia" -> "Valencia" [label="241"];
+  "Murcia" -> "Albacete" [label="150"];
+  "Madrid" -> "Albacete" [label="251"];
+  "Madrid" -> "Zaragoza" [label="325"];
+  "Madrid" -> "Badajoz" [label="403"];
+  "Madrid" -> "Valladolid" [label="193"];
+  "Madrid" -> "Bilbao" [label="395"];
+  "Valencia" -> "Albacete" [label="191"];
+  "Valencia" -> "Barcelona" [label="349"];
+  "Barcelona" -> "Gerona" [label="100"];
+  "Barcelona" -> "Zaragoza" [label="296"];
+  "Zaragoza" -> "Bilbao" [label="324"];
+  "Valladolid" -> "Vigo" [label="356"];
+  "Valladolid" -> "Coruna" [label="455"];
+  "Valladolid" -> "Bilbao" [label="280"];
+  "Vigo" -> "Coruna" [label="171"];
+  "Bilbao" -> "Oviedo" [label="304"];
+}

@@ -1,0 +1,36 @@
+digraph ArbolB5Vehiculo {
+	rankdir=TB;
+	node [shape=record];
+	label="Arbol B de Vehiculos";
+	n0_0 [label="<p441NEY>| { ('441NEY', Placa: 441NEY | Marca: Volvo | Modelo: 1993 | Precio: 0.58) } |<p760YPU>| { ('760YPU', Placa: 760YPU | Marca: Honda | Modelo: 2005 | Precio: 0.71) } |<pNULL>"];
+	n0_0:p441NEY -> n1_0;
+	n1_0 [label="<p216SBS>| { ('216SBS', Placa: 216SBS | Marca: Toyota | Modelo: 2009 | Precio: 0.6) } |<p281KKD>| { ('281KKD', Placa: 281KKD | Marca: Honda | Modelo: 1992 | Precio: 0.95) } |<p290INL>| { ('290INL', Placa: 290INL | Marca: Nissan | Modelo: 2003 | Precio: 0.55) } |<pNULL>"];
+	n1_0:p216SBS -> n2_0;
+	n2_0 [label="<p100KAR>| { ('100KAR', Placa: 100KAR | Marca: Honda | Modelo: 2008 | Precio: 0.66) } |<p109XGC>| { ('109XGC', Placa: 109XGC | Marca: Hyundai | Modelo: 1994 | Precio: 0.64) } |<p111UKK>| { ('111UKK', Placa: 111UKK | Marca: Nissan | Modelo: 2014 | Precio: 0.51) } |<p116PWJ>| { ('116PWJ', Placa: 116PWJ | Marca: BMW | Modelo: 2009 | Precio: 0.77) } |<pNULL>"];
+	n1_0:p281KKD -> n2_1;
+	n2_1 [label="<p244AOH>| { ('244AOH', Placa: 244AOH | Marca: Toyota | Modelo: 2007 | Precio: 0.64) } |<p266IXH>| { ('266IXH', Placa: 266IXH | Marca: Toyota | Modelo: 1997 | Precio: 0.61) } |<p268LVP>| { ('268LVP', Placa: 268LVP | Marca: Volvo | Modelo: 2001 | Precio: 0.89) } |<p279IYP>| { ('279IYP', Placa: 279IYP | Marca: BMW | Modelo: 2003 | Precio: 0.52) } |<pNULL>"];
+	n1_0:p290INL -> n2_2;
+	n2_2 [label="<p284SEX>| { ('284SEX', Placa: 284SEX | Marca: BMW | Modelo: 2000 | Precio: 0.83) } |<p287QQN>| { ('287QQN', Placa: 287QQN | Marca: Honda | Modelo: 2009 | Precio: 0.58) } |<pNULL>"];
+	n1_0:pNULL -> n2_3;
+	n2_3 [label="<p303LNT>| { ('303LNT', Placa: 303LNT | Marca: Volvo | Modelo: 1998 | Precio: 0.85) } |<p384AAE>| { ('384AAE', Placa: 384AAE | Marca: Nissan | Modelo: 2003 | Precio: 0.71) } |<p391MSI>| { ('391MSI', Placa: 391MSI | Marca: Nissan | Modelo: 1995 | Precio: 0.96) } |<p413GRT>| { ('413GRT', Placa: 413GRT | Marca: Hyundai | Modelo: 1996 | Precio: 0.84) } |<p419QXC>| { ('419QXC', Placa: 419QXC | Marca: Hyundai | Modelo: 2015 | Precio: 0.7) } |<pNULL>"];
+	n0_0:p760YPU -> n1_1;
+	n1_1 [label="<p498WDL>| { ('498WDL', Placa: 498WDL | Marca: Volvo | Modelo: 1995 | Precio: 0.78) } |<p548AKO>| { ('548AKO', Placa: 548AKO | Marca: Hyundai | Modelo: 1996 | Precio: 0.98) } |<p659GVT>| { ('659GVT', Placa: 659GVT | Marca: Volvo | Modelo: 1990 | Precio: 0.74) } |<p693XCN>| { ('693XCN', Placa: 693XCN | Marca: Hyundai | Modelo: 2002 | Precio: 0.66) } |<pNULL>"];
+	n1_1:p498WDL -> n2_0;
+	n2_0 [label="<p444YOZ>| { ('444YOZ', Placa: 444YOZ | Marca: Volvo | Modelo: 2013 | Precio: 0.56) } |<p455CXZ>| { ('455CXZ', Placa: 455CXZ | Marca: Volvo | Modelo: 1990 | Precio: 0.89) } |<p485RYE>| { ('485RYE', Placa: 485RYE | Marca: Nissan | Modelo: 1999 | Precio: 0.71) } |<pNULL>"];
+	n1_1:p548AKO -> n2_1;
+	n2_1 [label="<p506XRM>| { ('506XRM', Placa: 506XRM | Marca: Toyota | Modelo: 2003 | Precio: 0.53) } |<p545BZB>| { ('545BZB', Placa: 545BZB | Marca: BMW | Modelo: 2011 | Precio: 0.6) } |<p546XIH>| { ('546XIH', Placa: 546XIH | Marca: Nissan | Modelo: 2007 | Precio: 0.73) } |<pNULL>"];
+	n1_1:p659GVT -> n2_2;
+	n2_2 [label="<p617VUY>| { ('617VUY', Placa: 617VUY | Marca: Honda | Modelo: 2007 | Precio: 0.75) } |<p635NXJ>| { ('635NXJ', Placa: 635NXJ | Marca: Nissan | Modelo: 1996 | Precio: 0.76) } |<pNULL>"];
+	n1_1:p693XCN -> n2_3;
+	n2_3 [label="<p660DQS>| { ('660DQS', Placa: 660DQS | Marca: Nissan | Modelo: 1992 | Precio: 0.86) } |<p666TUA>| { ('666TUA', Placa: 666TUA | Marca: Hyundai | Modelo: 1998 | Precio: 0.51) } |<p678FTV>| { ('678FTV', Placa: 678FTV | Marca: Nissan | Modelo: 2012 | Precio: 0.94) } |<pNULL>"];
+	n1_1:pNULL -> n2_4;
+	n2_4 [label="<p709HMY>| { ('709HMY', Placa: 709HMY | Marca: Toyota | Modelo: 2010 | Precio: 0.79) } |<p746GUH>| { ('746GUH', Placa: 746GUH | Marca: Volvo | Modelo: 2011 | Precio: 0.6) } |<p748ILF>| { ('748ILF', Placa: 748ILF | Marca: Nissan | Modelo: 2010 | Precio: 0.93) } |<pNULL>"];
+	n0_0:pNULL -> n1_2;
+	n1_2 [label="<p877GXL>| { ('877GXL', Placa: 877GXL | Marca: Hyundai | Modelo: 1994 | Precio: 0.76) } |<p962GGU>| { ('962GGU', Placa: 962GGU | Marca: Volvo | Modelo: 1994 | Precio: 0.67) } |<pNULL>"];
+	n1_2:p877GXL -> n2_0;
+	n2_0 [label="<p785BUI>| { ('785BUI', Placa: 785BUI | Marca: Nissan | Modelo: 1994 | Precio: 0.74) } |<p807WWV>| { ('807WWV', Placa: 807WWV | Marca: Toyota | Modelo: 2004 | Precio: 0.74) } |<p812MSU>| { ('812MSU', Placa: 812MSU | Marca: Honda | Modelo: 2012 | Precio: 0.64) } |<p843HFN>| { ('843HFN', Placa: 843HFN | Marca: Volvo | Modelo: 2002 | Precio: 0.78) } |<p860LHH>| { ('860LHH', Placa: 860LHH | Marca: BMW | Modelo: 1999 | Precio: 0.65) } |<pNULL>"];
+	n1_2:p962GGU -> n2_1;
+	n2_1 [label="<p920SKO>| { ('920SKO', Placa: 920SKO | Marca: Volvo | Modelo: 2012 | Precio: 0.55) } |<p947GGV>| { ('947GGV', Placa: 947GGV | Marca: Nissan | Modelo: 1997 | Precio: 0.59) } |<pNULL>"];
+	n1_2:pNULL -> n2_2;
+	n2_2 [label="<p970GUB>| { ('970GUB', Placa: 970GUB | Marca: Nissan | Modelo: 1990 | Precio: 0.62) } |<p979DTM>| { ('979DTM', Placa: 979DTM | Marca: Toyota | Modelo: 2004 | Precio: 0.61) } |<p982ONR>| { ('982ONR', Placa: 982ONR | Marca: Hyundai | Modelo: 2003 | Precio: 0.56) } |<pNULL>"];
+}
